@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="descuentos.css">
+
+</head>
+<body>
+    
+    <header class="classCentra">
+        <br /><br />
+        <br /><br />
+        <h1>Porcentajes y Descuentos</h1>
+        <p>Taller realizado por <img src="../img/github.svg" width="20px" height="15px" /> <a target="_blank" href="https://github.com/FSIce1"> FSIce1</a> | Felipe Siesquen </p>
+    </header>
+    
+    <section class="classCentra">
+        <br />
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+    
+        <form action="">
+            <label for="">Escribe el precio de tu producto: </label>        
+            <input id="inputPrecio" type="number" />
+
+            <br /><br />
+            <label for="">Escribe el descuento de tu producto: </label>
+            <input id="inputDescuento" placeholder="MICUPON10" type="text" />
+
+            <br /><br />
+            <button class="boton" type="button" onClick="onClickButtonPrecioDescuento()" >Canjear Cupón</button>
+
+            <div class="resultado" id="resultadoP"></div>
+
+        </form>
+
+    </section>
+                                            
+    <script src="descuentos.js"></script>
+
+</body>
+</html>
