@@ -33,3 +33,72 @@ a:hover {
 .red {
     color: red;
 }
+
+/*? RESPONSIVE DESIGN*/
+
+/*TODO: Entre 320px y 374px */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p,label, div {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    #inputDescuento, #inputPrecio {
+        margin-top: 10px;
+    }
+
+    header img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p,label, div {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #inputDescuento, #inputPrecio {
+        margin-top: 10px;
+    }
+
+}
+
+/*TODO: Entre 425px y 578px */
+@media screen and (min-width: 425px) and (max-width: 578px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p,label, div {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #inputDescuento, #inputPrecio {
+        margin-top: 10px;
+    }
+
+}

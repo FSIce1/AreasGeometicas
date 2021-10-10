@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,17 @@
 
 </head>
 <body>
-    
 
     <header>
         <h1>Figuras Geométricas</h1>
     </header>
 
     <section>
+
         <h2 class="subtitulo">Calcula el área y perímetro de un cuadrado</h2>
-        
+
         <div class="cartas">
-            
+
             <!--* CUADRADO-->
             <div class="carta">
 
@@ -29,12 +30,12 @@
                 <form class="formulario" action="">
                     <br />
                     <label class="label" for="inputCuadrado">Escribe cuánto mide cada lado de tu cuadrado</label>
-        
+
                     <input class="input" id="inputCuadrado" type="number" >
-        
+
                     <button class="boton" type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
                     <button class="boton" type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
-                
+
                     <h2>Resultados</h2>
                     <div class="resultado">
                         <p id="resultadosCuadrado"></p>
@@ -51,21 +52,20 @@
                 <form class="formulario" action="">
                     <br />
                     <label class="label" for="inputTriangulo">Escribe cuánto mide cada lado de tu triángulo</label>
-        
+
                     <input class="input" id="inputLado1" type="number" >
                     <input class="input" id="inputLado2" type="number" >
                     <input class="input" id="inputLado3" type="number" >
-        
+
                     <button class="boton" type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
                     <button class="boton" type="button" onclick="calcularAlturaTrianguloIsosceles()">Calcular la altura</button>
-                    
                     <br />
-                    
+
                     <label class="label" for="inputTriangulo">Escribe cuánto mide la altura y base de tu triángulo</label>
-        
+
                     <input class="input" id="inputAltura" type="number" >
                     <input class="input" id="inputBase" type="number" >
-                    
+
                     <button class="boton" type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
                     <br />
 
@@ -91,7 +91,7 @@
                     <button class="boton" type="button" onclick="calcularDiametroCirculo()">Calcular el diámetro</button>
                     <button class="boton" type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
                     <button class="boton" type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
-                    
+
                     <h2>Resultados</h2>
                     <div class="resultado">
                         <p id="resultadosCirculo"></p>

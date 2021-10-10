@@ -1,5 +1,6 @@
 
 function calcularPrecioConDescuento(precio, descuento){
+
     const porcentajePrecioConDescuento = 100 - descuento;
     const precioConDescuento = (precio*porcentajePrecioConDescuento) / 100;
 
@@ -7,7 +8,7 @@ function calcularPrecioConDescuento(precio, descuento){
 }
 
 function onClickButtonPrecioDescuento(){
-    
+
     const cupones = ["MICUPON10"];
 
     const inputPrecioA = document.getElementById("inputPrecio");

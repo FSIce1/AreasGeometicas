@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.contenedor1, .contenedor2 {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor1 {
+    background-color: blueviolet;
+}
+
+.contenedor2 {
+    background-color: chartreuse;
+}
