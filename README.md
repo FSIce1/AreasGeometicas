@@ -15,4 +15,3 @@ Pequeña aplicación para calcular las áreas de figuras geométricas
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML
 
-# curso-practico-javascript
